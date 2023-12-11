@@ -1,0 +1,15 @@
+menu "XR USB to serials drivers"
+
+config USB_SERIAL_XR
+        tristate
+
+config XR_USB_SERIAL_COMMON
+        tristate "XR USB to serial ports driver"
+        select USB_SERIAL_XR
+        help
+          This driver adds support for XR USB to serial ports
+
+          To compile this driver as module, choose M here:
+
+
+endmenu

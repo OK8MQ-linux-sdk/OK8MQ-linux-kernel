@@ -70,7 +70,8 @@ dtb-$(CONFIG_ARCH_MXC) += imx8mq-evk-dp.dtb
 dtb-$(CONFIG_ARCH_MXC) += ok8mq-evk.dtb ok8mq-evk-dcss-mipi7.dtb ok8mq-evk-lcdif-mipi7.dtb \
 				ok8mq-evk-rpmsg.dtb ok8mq-evk-lcdif-lt8912.dtb \
 			       	ok8mq-evk-dcss-lt8912.dtb ok8mq-evk-dual-hdmi-lt8912.dtb \
-			       	ok8mq-evk-dual-hdmi-mipi7.dtb
+			       	ok8mq-evk-dual-hdmi-mipi7.dtb \
+                                ok8mq-evk-root.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8mq-zii-ultra-rmb3.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8mq-zii-ultra-zest.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8mq-ddr3l-val.dtb imx8mq-ddr4-val.dtb imx8mq-ddr4-val-gpmi-nand.dtb
